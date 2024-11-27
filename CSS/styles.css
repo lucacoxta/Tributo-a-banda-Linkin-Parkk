@@ -1,0 +1,350 @@
+/* Estilos gerais */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-title {
+    font-size: 3.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.main-paragraph {
+    font-size: 1.3rem;
+    color: #666;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Seções */
+section {
+    margin-bottom: 40px;
+}
+
+/* Imagem de destaque com integrantes do Linkin Park */
+.feature-image img {
+    width: 100%; /* Garante que a imagem ocupe toda a largura disponível */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Arredonda as bordas da imagem */
+    filter: brightness(1.2) contrast(1.3); /* Ajusta brilho e contraste para dar mais definição */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Adiciona uma leve sombra para destacar a imagem */
+}
+
+.feature-image figcaption {
+    text-align: center;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #444;
+    margin-top: 10px;
+}
+
+/* Biografia */
+.biography-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.biography-container h2 {
+    font-size: 2.2rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.biography-container p {
+    font-size: 1.2rem;
+    color: #444;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* Container para as seções de Discografia e Premiações lado a lado */
+.music-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+/* Estilo para a Discografia */
+.discography-container {
+    flex: 1 1 45%; /* 45% de largura com possibilidade de ajuste */
+    min-width: 300px;
+    background-color: #f9f9f9; /* Fundo sutil para se destacar */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.discography-container h2 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.discography-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.discography-container li {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Estilo para as Premiações */
+.awards-container {
+    flex: 1 1 45%; /* 45% de largura com possibilidade de ajuste */
+    min-width: 300px;
+    background-color: #f9f9f9; /* Fundo sutil para se destacar */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.awards-container h2 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.awards-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.awards-container li {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+
+/* Estilo adicional para listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Impacto Cultural */
+.cultural-impact-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cultural-impact-container h2 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.cultural-impact-container p {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* Colaborações com Outros Artistas */
+.collaborations-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.collaborations-container h2 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.collaborations-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.collaborations-container li {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Citações */
+.quotes-container blockquote {
+    font-size: 1.5rem;
+    color: #333;
+    font-style: italic;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-left: 5px solid #4caf50;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.quotes-container p {
+    font-size: 1.1rem;
+    color: #444;
+    text-align: right;
+}
+
+/* Curiosidades */
+.curiosities-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.curiosities-container h2 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.curiosities-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.curiosities-container li {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Segunda imagem */
+.img-bold img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.img-bold figcaption {
+    text-align: center;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #444;
+    margin-top: 10px;
+}
+
+/* Fim do tributo a Linkin Park */
+.fim-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.fim-container h2 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.fim-container p {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* Mais informações */
+.moreinfo-container {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f1f1f1; /* Alterei o fundo para dar contraste */
+    border-radius: 8px;
+}
+
+.moreinfo-container h2 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.moreinfo-container p {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para a seção pessoal */
+.personal-message-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.personal-message-container h2 {
+    font-size: 2.2rem;
+    color: #333;
+    text-align: center;
+}
+
+.personal-message-container p {
+    font-size: 1.2rem;
+    color: #444;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Imagem Primária como ícone */
+.primary-image {
+    text-align: center; /* Centraliza a imagem */
+    margin-top: 20px;
+}
+
+.primary-image img {
+    width: 120px; /* Ajuste do tamanho para ícone */
+    height: 120px; /* Manter a proporção */
+    object-fit: cover; /* Garante que a imagem preencha o espaço de maneira adequada */
+    border-radius: 50%; /* Deixa a imagem com bordas arredondadas */
+    transition: transform 0.3s ease; /* Adiciona uma animação de efeito ao passar o mouse */
+}
+
+.primary-image img:hover {
+    transform: scale(1.1); /* Aumenta a imagem quando o mouse passar por cima */
+}

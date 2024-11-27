@@ -1,0 +1,50 @@
+# Documentação do Processo de Desenvolvimento
+
+## Introdução
+
+Este repositório contém o código-fonte do projeto de tributo à banda Linkin Park, criado com o objetivo de prestar homenagem à banda e ao seu vocalista Chester Bennington. A seguir, documentarei o processo de desenvolvimento, os desafios enfrentados ao longo do caminho e como o Git foi essencial para o gerenciamento do projeto.
+
+## Processo de Desenvolvimento
+
+### 1. Planejamento
+
+O desenvolvimento do projeto começou com a definição clara dos objetivos. A ideia principal foi criar uma página web que celebrasse o legado da banda Linkin Park e seu vocalista Chester Bennington. Durante o planejamento, definiu-se o escopo do projeto, incluindo a criação de uma página com informações sobre álbuns e músicas, além de uma homenagem ao Chester.
+
+### 2. Design e Estruturação
+
+A primeira fase do desenvolvimento envolveu a criação do layout da página com HTML e CSS. A estrutura da página foi pensada para ser simples e eficiente, com um design responsivo que se adaptasse a diferentes dispositivos (desktop, tablet, smartphone).
+
+### 3. Implementação das Funcionalidades
+
+Na etapa de implementação, as funcionalidades foram desenvolvidas de acordo com o planejado. A seção de álbuns e músicas foi preenchida com informações detalhadas sobre os álbuns mais populares da banda. A homenagem a Chester Bennington foi adicionada, destacando sua carreira e impacto na música.
+
+### 4. Testes e Ajustes
+
+Após a implementação das funcionalidades, o projeto passou pela fase de testes. Foram feitos ajustes para garantir que o design fosse responsivo e que todas as informações estivessem corretamente exibidas.
+
+## Desafios Enfrentados
+
+Durante o desenvolvimento do projeto, enfrentei alguns desafios:
+
+- **Design Responsivo**: Adaptar o layout para diferentes tamanhos de tela foi um desafio, pois exigiu ajustes constantes no código CSS para garantir uma boa visualização em dispositivos móveis.
+- **Gerenciamento de Conteúdo**: Organizar e apresentar informações sobre os álbuns e músicas de forma clara e concisa exigiu um bom planejamento para manter a página informativa, mas sem sobrecarregar o visitante.
+- **Homenagem a Chester Bennington**: A criação de uma seção significativa e respeitosa para homenagear Chester Bennington foi um desafio emocional, já que a perda do vocalista foi muito impactante para os fãs da banda.
+
+## Como o Git Foi Útil
+
+O Git foi fundamental para o gerenciamento deste projeto. Aqui estão algumas formas em que o Git ajudou:
+
+- **Controle de Versão**: O Git permitiu que eu mantivesse o controle de todas as alterações feitas no código ao longo do desenvolvimento. Isso foi especialmente útil quando precisei reverter alterações ou corrigir erros.
+- **Trabalho em Equipe (caso seja aplicável)**: Embora o projeto tenha sido desenvolvido individualmente, o Git possibilitou um gerenciamento organizado caso o projeto fosse expandido para incluir contribuições de outras pessoas no futuro.
+- **Backup e Acesso Remoto**: Com o repositório no GitHub, consegui garantir que o projeto estivesse sempre acessível de qualquer lugar e que fosse feito um backup constante, minimizando o risco de perda de dados.
+- **Commit e Documentação de Mudanças**: Cada commit foi documentado adequadamente, o que ajudou a entender o histórico de mudanças e a identificar facilmente quais melhorias ou ajustes foram feitos ao longo do desenvolvimento.
+
+## Conclusão
+
+O desenvolvimento deste projeto foi uma experiência enriquecedora, permitindo que eu aprimorasse minhas habilidades em HTML, CSS e Git. Os desafios encontrados durante o processo me ensinaram a importância de um bom planejamento e da flexibilidade durante a implementação. O Git, como ferramenta de controle de versão, foi essencial para manter o projeto organizado e seguro.
+
+## Próximos Passos
+
+- Revisar e melhorar o design da página conforme o feedback dos usuários.
+- Adicionar mais funcionalidades, como uma seção interativa para os fãs, com informações sobre turnês e eventos.
+- Expandir a homenagem a Chester Bennington com mais conteúdo multimídia, como vídeos e depoimentos de fãs.
