@@ -37,4 +37,4 @@ Este projeto é uma homenagem à icônica banda Linkin Park, criado para celebra
 
 
 ## Como Visualizar
-https://lucacoxta.github.io/Tributo-a-banda-Linkin-Park/
+https://lucacoxta.github.io/Tributo-a-banda-Linkin-Parkk/

@@ -348,3 +348,47 @@ ul {
 .primary-image img:hover {
     transform: scale(1.1); /* Aumenta a imagem quando o mouse passar por cima */
 }
+
+.credits-container {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+}
+
+.credits-container .bold {
+    font-weight: bold;
+}
+
+.intro-container {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.intro-container .bold {
+    font-weight: bold;
+}
+
+/* Estilo para os links dos álbuns */
+.album-link {
+    text-decoration: none;
+    color: #444; /* Cor normal */
+    font-size: 1.2rem;
+}
+
+.album-link:hover {
+    color: #1db954; /* Cor ao passar o mouse (verde Linkin Park) */
+    text-decoration: underline; /* Adiciona o sublinhado quando passar o mouse */
+}
+
+.album-link span.bold {
+    font-weight: bold; /* Aplica negrito ao nome do álbum */
+}
+ 
+
