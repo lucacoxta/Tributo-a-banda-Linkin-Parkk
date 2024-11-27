@@ -12,7 +12,6 @@ Este projeto é uma homenagem à icônica banda Linkin Park, criado para celebra
 
 ## Funcionalidades
 
-- **Homenagem ao Vocalista Chester Bennington**: Seção dedicada a Chester Bennington, celebrando sua carreira e impacto no mundo da música.
 - **Informações sobre Álbuns e Músicas**: Listagem de álbuns, com detalhes sobre suas faixas mais importantes e links para as músicas.
 - **Design Responsivo**: A página será projetada para ser totalmente responsiva, adaptando-se a diferentes dispositivos, como smartphones, tablets e desktops.
 - **Links para Músicas Icônicas**: Links para vídeos e músicas mais populares da banda, permitindo aos fãs relembrar seus maiores sucessos.
