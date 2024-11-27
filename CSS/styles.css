@@ -391,4 +391,20 @@ ul {
     font-weight: bold; /* Aplica negrito ao nome do álbum */
 }
  
+/* Container do rodapé */
+.credits-container {
+    background-color: #333;     /* Fundo escuro */
+    color: #fff;                /* Texto branco */
+    text-align: center;         /* Centraliza o texto */
+    padding: 30px 15px;         /* Espaçamento interno */
+    font-size: 16px;            /* Tamanho do texto */
+    margin-top: 40px;           /* Espaçamento superior */
+    border-top: 2px solid #fff; /* Linha separadora acima do rodapé */
+}
+
+/* Destaca o texto em negrito */
+.bold {
+    font-weight: bold;          /* Deixa em negrito */
+    color: #e74c3c;             /* Cor vermelha suave para o destaque */
+}
 
